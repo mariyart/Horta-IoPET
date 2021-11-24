@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #E0E0E0;
+}
+
+.content {
+    margin-top: 30px;
+}
+
+nav {
+    background-color: rgba(41, 58, 68, 1);
+}
+
+.statistic {
+    font-size: 8em;
+    margin-top: 15px !important;
+}
+
+.card {
+    min-height: 250px;
+}
+
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button {
+    margin-top: 2rem;
+}
+
+  @media screen and (max-width: 600px){
+    .statistic {
+      font-size: 5em;
+    }
+  }
+
+
